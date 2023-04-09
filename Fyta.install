@@ -1,0 +1,21 @@
+{
+	"name": "Fyta",
+	"speakableName": "fita",
+	"version": "0.0.1",
+	"icon": "fas fa-user-alien",
+	"category": "household",
+	"author": "Psychokiller1888",
+	"maintainers": [],
+	"desc": "Connect with your plants!",
+	"aliceMinVersion": "1.0.0-rc2",
+	"pipRequirements": [
+		"requests"
+	],
+	"systemRequirements": [],
+	"conditions": {
+		"lang": [
+			"en"
+		],
+		"online": true
+	}
+}
