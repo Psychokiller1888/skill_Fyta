@@ -16,10 +16,12 @@ class Fytabeam(Device):
 			'totalDeviceLimit'      : 0,
 			'allowLocationLinks'    : True,
 			'allowHeartbeatOverride': False,
-			'heartbeatRate'         : 5,
+			'heartbeatRate'         : 0,
 			'abilities'             : [DeviceAbility.NONE]
 		}
 
 
 	def __init__(self, data: Union[sqlite3.Row, Dict]):
 		super().__init__(data)
+
+
